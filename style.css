@@ -1,0 +1,80 @@
+.overall {
+    position: relative;
+    background-color:#ccc;
+}
+
+.bkg_img {
+    width: 100%;
+    height: auto;
+    background-size: contain;
+}
+
+.intro {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Rest of the CSS styles remain the same */
+
+.intro p {
+    margin: 0;
+    font-size: 18px;
+}
+
+
+form {
+    margin-top: 20px;
+    border:none;
+}
+
+fieldset :invalid {
+    border: none;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+[required]::-webkit-input-placeholder { /* WebKit browsers */
+    -webkit-animation-delay: 0.3s;
+}
+[required]::-moz-placeholder { /* WebKit browsers */
+    -moz-animation-duration: 0.3s;
+}
+[required]::-ms-input-placeholder { /* WebKit browsers */
+    -ms-zoom-animation: 4s;
+}
+
+.submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submit:hover {
+    background-color: #45a049;
+}
+
+
