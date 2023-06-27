@@ -4,8 +4,8 @@
 }
 
 .bkg_img {
-    width: 100%;
-    height: 500px;
+    width: 70%;
+    height: auto;
     background-size: contain;
 }
 
